@@ -19,7 +19,9 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Something Changed!</Text>
+        <Text style={styles.text}>Select a pick-up location</Text>
+        <Text style={styles.textHead}>Ecstatic again?</Text>
+        <Text style={styles.text}>Large, Light Cream, Light Sugar, Iced</Text>
         <View style={styles.textInput}>
           <TextInput
             placeholder="Search for a Coffeeshop"
@@ -33,20 +35,30 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "stretch",
+    backgroundColor: "#FFAD24",
   },
-  welcome: {
+  toptext: {
     fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+    textAlign: "center",
+    color: "#3A2C22",
+    textAlignVertical: 'top',
+    width: '100%',
+    height: '20%'
   },
-  textInput: {
-    textAlign: 'center',
-    color: 'black',
-    fontSize: 18,
-    backgroundColor: "grey",
-    width: "100%",
+  text: {
+    fontSize: 20,
+    textAlign: "center",
+    marginTop: 40,
+    color: "#3A2C22",
   },
+  textHead: {
+    fontSize: 35,
+    textAlign: "center",
+    color: "#3A2C22",
+    fontWeight: 'bold',
+    // fontFamily: 'Cochin',
+  }
 });
