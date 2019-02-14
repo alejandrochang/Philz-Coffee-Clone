@@ -24,7 +24,7 @@ export default class App extends Component {
         <Text style={styles.text2}>Large, Light Cream, Light Sugar, Iced</Text>
 
         <View style={styles.buttonContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity style={styles.touchable}>
             <Text style={{ fontWeight: "bold", textAlign: "center", color: "white"}} textStyle={{ fontFamily: 'MarkPro Medium'}}>
               I'll TAKE IT!
             </Text>
@@ -66,15 +66,21 @@ const styles = StyleSheet.create({
   }, 
   buttonContainer: {
     flex: 2,
-    justifyContent: "center",
     width: "100%",
-    backgroundColor: "#aa5b06"
+    // backgroundColor: "#915e1f",
+    marginTop: 10
   }, 
   navigationContainer: {
     flex: 2,
     justifyContent: "center",
     width: "100%",
-    backgroundColor: "#aa5b06",
+    backgroundColor: "#915e1f",
     marginTop: 1
+  }, 
+  touchable: {
+    // marginTop: 5,
+    backgroundColor: "#915e1f",
+    paddingTop: 40,
+    // height: 110
   }, 
 });
