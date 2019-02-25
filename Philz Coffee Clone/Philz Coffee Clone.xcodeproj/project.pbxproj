@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297862DC2223A2F800114F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297862DB2223A2F800114F3F /* AppDelegate.swift */; };
+		297862DE2223A2F800114F3F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297862DD2223A2F800114F3F /* RootViewController.swift */; };
+		297862E02223A2F800114F3F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297862DF2223A2F800114F3F /* DataViewController.swift */; };
+		297862E22223A2F800114F3F /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297862E12223A2F800114F3F /* ModelController.swift */; };
+		297862E52223A2F800114F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297862E32223A2F800114F3F /* Main.storyboard */; };
+		297862E72223A2F900114F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297862E62223A2F900114F3F /* Assets.xcassets */; };
+		297862EA2223A2F900114F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297862E82223A2F900114F3F /* LaunchScreen.storyboard */; };
+		297862F52223A2F900114F3F /* Philz_Coffee_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297862F42223A2F900114F3F /* Philz_Coffee_CloneTests.swift */; };
+		297863002223A2F900114F3F /* Philz_Coffee_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297862FF2223A2F900114F3F /* Philz_Coffee_CloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		297862F12223A2F900114F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297862D02223A2F700114F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297862D72223A2F700114F3F;
+			remoteInfo = "Philz Coffee Clone";
+		};
+		297862FC2223A2F900114F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297862D02223A2F700114F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297862D72223A2F700114F3F;
+			remoteInfo = "Philz Coffee Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297862D82223A2F700114F3F /* Philz Coffee Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Philz Coffee Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		297862DB2223A2F800114F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		297862DD2223A2F800114F3F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		297862DF2223A2F800114F3F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		297862E12223A2F800114F3F /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		297862E42223A2F800114F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		297862E62223A2F900114F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		297862E92223A2F900114F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		297862EB2223A2F900114F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297862F02223A2F900114F3F /* Philz Coffee CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philz Coffee CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		297862F42223A2F900114F3F /* Philz_Coffee_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philz_Coffee_CloneTests.swift; sourceTree = "<group>"; };
+		297862F62223A2F900114F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297862FB2223A2F900114F3F /* Philz Coffee CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philz Coffee CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		297862FF2223A2F900114F3F /* Philz_Coffee_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philz_Coffee_CloneUITests.swift; sourceTree = "<group>"; };
+		297863012223A2F900114F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		297862D52223A2F700114F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297862ED2223A2F900114F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297862F82223A2F900114F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297862CF2223A2F700114F3F = {
+			isa = PBXGroup;
+			children = (
+				297862DA2223A2F700114F3F /* Philz Coffee Clone */,
+				297862F32223A2F900114F3F /* Philz Coffee CloneTests */,
+				297862FE2223A2F900114F3F /* Philz Coffee CloneUITests */,
+				297862D92223A2F700114F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		297862D92223A2F700114F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297862D82223A2F700114F3F /* Philz Coffee Clone.app */,
+				297862F02223A2F900114F3F /* Philz Coffee CloneTests.xctest */,
+				297862FB2223A2F900114F3F /* Philz Coffee CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		297862DA2223A2F700114F3F /* Philz Coffee Clone */ = {
+			isa = PBXGroup;
+			children = (
+				297862DB2223A2F800114F3F /* AppDelegate.swift */,
+				297862DD2223A2F800114F3F /* RootViewController.swift */,
+				297862DF2223A2F800114F3F /* DataViewController.swift */,
+				297862E12223A2F800114F3F /* ModelController.swift */,
+				297862E32223A2F800114F3F /* Main.storyboard */,
+				297862E62223A2F900114F3F /* Assets.xcassets */,
+				297862E82223A2F900114F3F /* LaunchScreen.storyboard */,
+				297862EB2223A2F900114F3F /* Info.plist */,
+			);
+			path = "Philz Coffee Clone";
+			sourceTree = "<group>";
+		};
+		297862F32223A2F900114F3F /* Philz Coffee CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				297862F42223A2F900114F3F /* Philz_Coffee_CloneTests.swift */,
+				297862F62223A2F900114F3F /* Info.plist */,
+			);
+			path = "Philz Coffee CloneTests";
+			sourceTree = "<group>";
+		};
+		297862FE2223A2F900114F3F /* Philz Coffee CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				297862FF2223A2F900114F3F /* Philz_Coffee_CloneUITests.swift */,
+				297863012223A2F900114F3F /* Info.plist */,
+			);
+			path = "Philz Coffee CloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		297862D72223A2F700114F3F /* Philz Coffee Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297863042223A2F900114F3F /* Build configuration list for PBXNativeTarget "Philz Coffee Clone" */;
+			buildPhases = (
+				297862D42223A2F700114F3F /* Sources */,
+				297862D52223A2F700114F3F /* Frameworks */,
+				297862D62223A2F700114F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Philz Coffee Clone";
+			productName = "Philz Coffee Clone";
+			productReference = 297862D82223A2F700114F3F /* Philz Coffee Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		297862EF2223A2F900114F3F /* Philz Coffee CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297863072223A2F900114F3F /* Build configuration list for PBXNativeTarget "Philz Coffee CloneTests" */;
+			buildPhases = (
+				297862EC2223A2F900114F3F /* Sources */,
+				297862ED2223A2F900114F3F /* Frameworks */,
+				297862EE2223A2F900114F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297862F22223A2F900114F3F /* PBXTargetDependency */,
+			);
+			name = "Philz Coffee CloneTests";
+			productName = "Philz Coffee CloneTests";
+			productReference = 297862F02223A2F900114F3F /* Philz Coffee CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		297862FA2223A2F900114F3F /* Philz Coffee CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2978630A2223A2F900114F3F /* Build configuration list for PBXNativeTarget "Philz Coffee CloneUITests" */;
+			buildPhases = (
+				297862F72223A2F900114F3F /* Sources */,
+				297862F82223A2F900114F3F /* Frameworks */,
+				297862F92223A2F900114F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297862FD2223A2F900114F3F /* PBXTargetDependency */,
+			);
+			name = "Philz Coffee CloneUITests";
+			productName = "Philz Coffee CloneUITests";
+			productReference = 297862FB2223A2F900114F3F /* Philz Coffee CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297862D02223A2F700114F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alejandro Chang";
+				TargetAttributes = {
+					297862D72223A2F700114F3F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					297862EF2223A2F900114F3F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 297862D72223A2F700114F3F;
+					};
+					297862FA2223A2F900114F3F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 297862D72223A2F700114F3F;
+					};
+				};
+			};
+			buildConfigurationList = 297862D32223A2F700114F3F /* Build configuration list for PBXProject "Philz Coffee Clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 297862CF2223A2F700114F3F;
+			productRefGroup = 297862D92223A2F700114F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297862D72223A2F700114F3F /* Philz Coffee Clone */,
+				297862EF2223A2F900114F3F /* Philz Coffee CloneTests */,
+				297862FA2223A2F900114F3F /* Philz Coffee CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297862D62223A2F700114F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297862EA2223A2F900114F3F /* LaunchScreen.storyboard in Resources */,
+				297862E72223A2F900114F3F /* Assets.xcassets in Resources */,
+				297862E52223A2F800114F3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297862EE2223A2F900114F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297862F92223A2F900114F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		297862D42223A2F700114F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297862DE2223A2F800114F3F /* RootViewController.swift in Sources */,
+				297862E22223A2F800114F3F /* ModelController.swift in Sources */,
+				297862E02223A2F800114F3F /* DataViewController.swift in Sources */,
+				297862DC2223A2F800114F3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297862EC2223A2F900114F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297862F52223A2F900114F3F /* Philz_Coffee_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297862F72223A2F900114F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297863002223A2F900114F3F /* Philz_Coffee_CloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297862F22223A2F900114F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297862D72223A2F700114F3F /* Philz Coffee Clone */;
+			targetProxy = 297862F12223A2F900114F3F /* PBXContainerItemProxy */;
+		};
+		297862FD2223A2F900114F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297862D72223A2F700114F3F /* Philz Coffee Clone */;
+			targetProxy = 297862FC2223A2F900114F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		297862E32223A2F800114F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297862E42223A2F800114F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		297862E82223A2F900114F3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297862E92223A2F900114F3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		297863022223A2F900114F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		297863032223A2F900114F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		297863052223A2F900114F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Philz Coffee Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrochang.Philz-Coffee-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		297863062223A2F900114F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Philz Coffee Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrochang.Philz-Coffee-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		297863082223A2F900114F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Philz Coffee CloneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrochang.Philz-Coffee-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philz Coffee Clone.app/Philz Coffee Clone";
+			};
+			name = Debug;
+		};
+		297863092223A2F900114F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Philz Coffee CloneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrochang.Philz-Coffee-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philz Coffee Clone.app/Philz Coffee Clone";
+			};
+			name = Release;
+		};
+		2978630B2223A2F900114F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Philz Coffee CloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrochang.Philz-Coffee-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Philz Coffee Clone";
+			};
+			name = Debug;
+		};
+		2978630C2223A2F900114F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Philz Coffee CloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrochang.Philz-Coffee-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Philz Coffee Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297862D32223A2F700114F3F /* Build configuration list for PBXProject "Philz Coffee Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297863022223A2F900114F3F /* Debug */,
+				297863032223A2F900114F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297863042223A2F900114F3F /* Build configuration list for PBXNativeTarget "Philz Coffee Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297863052223A2F900114F3F /* Debug */,
+				297863062223A2F900114F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297863072223A2F900114F3F /* Build configuration list for PBXNativeTarget "Philz Coffee CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297863082223A2F900114F3F /* Debug */,
+				297863092223A2F900114F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2978630A2223A2F900114F3F /* Build configuration list for PBXNativeTarget "Philz Coffee CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978630B2223A2F900114F3F /* Debug */,
+				2978630C2223A2F900114F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297862D02223A2F700114F3F /* Project object */;
+}
